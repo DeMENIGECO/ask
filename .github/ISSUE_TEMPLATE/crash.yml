@@ -1,0 +1,68 @@
+name: Crash Report
+description: Segnala un crash del crawler o del motore AskSearch
+title: "[CRASH] Descrizione breve del crash"
+labels:
+  - crash
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aver segnalato un crash in AskSearch. Compila le sezioni seguenti per aiutarci a identificarlo e risolverlo.
+
+  - type: textarea
+    id: crash_description
+    attributes:
+      label: Descrizione del crash
+      description: Spiega chiaramente cosa è andato in crash e cosa ti aspettavi.
+      placeholder: Il crawler si blocca quando indicizza docs.python.org...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Come riprodurre il crash
+      description: Elenca i passaggi necessari per riprodurre il crash.
+      placeholder: |
+        1. cd crawler
+        2. python crawl.py
+        3. Crash immediato su dominio X
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log del crash
+      description: Incolla qui l’errore completo (stack trace, output del crawler, console browser).
+      placeholder: |
+        Traceback (most recent call last):
+          File "crawl.py", line 42, in <module>
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Specifica dove si verifica il crash.
+      placeholder: |
+        Python 3.12
+        Ubuntu 22.04
+        Browser: Chrome 125
+        Commit: a1b2c3
+
+  - type: textarea
+    id: affected_files
+    attributes:
+      label: File coinvolti
+      description: Indica quali file potrebbero essere coinvolti.
+      placeholder: crawler/crawl.py, crawler/domains_settings.py, mini-db.js...
+
+  - type: textarea
+    id: possible_fix
+    attributes:
+      label: Possibile soluzione (opzionale)
+      description: Se hai un’idea su come risolver
