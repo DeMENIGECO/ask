@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Startpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --primary-color: #ff7f32; /* arancione */
+      --bg-color: #ffffff;
+      --text-color: #202124;
+      --muted-color: #5f6368;
+      --border-color: #dadce0;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      padding: 12px 24px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .search-box {
+      max-width: 600px;
+      margin: 40px auto;
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      padding: 4px 12px;
+      background: #fff;
+    }
+
+    .search-box input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 18px;
+      padding: 12px 4px;
+    }
+
+    .search-box button {
+      border: none;
+      background: var(--primary-color);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .startpage {
+      text-align: center;
+      margin-top: 120px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding: 16px 24px;
+      font-size: 12px;
+      color: var(--muted-color);
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="logo">AskSearch</div>
+  </div>
+
+  <div id="mainContent">
+    <div class="startpage">
+      <div class="logo" style="font-size:48px;">AskSearch</div>
+
+      <form class="search-box" id="searchForm">
+        <input type="text" id="searchInput" placeholder="Cerca con AskSearch...">
+        <button type="submit">Cerca</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    AskSearch — motore di ricerca demo con mini-db JavaScript
+  </footer>
+
+  <script>
+    document.getElementById("searchForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const query = document.getElementById("searchInput").value.trim();
+      if (!query) return;
+
+      const encoded = encodeURIComponent(query);
+
+      // Redirect fisso alla pagina dei risultati
+      window.location.href = `browser/qoc.html?q=${encoded}`;
+    });
+  </script>
+
+</body>
+</html>

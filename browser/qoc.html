@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>AskSearch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --primary-color: #ff7f32; /* arancione */
+      --bg-color: #ffffff;
+      --text-color: #202124;
+      --muted-color: #5f6368;
+      --border-color: #dadce0;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      padding: 12px 24px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .search-box {
+      max-width: 600px;
+      margin: 40px auto;
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      padding: 4px 12px;
+      background: #fff;
+    }
+
+    .search-box input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 18px;
+      padding: 12px 4px;
+    }
+
+    .search-box button {
+      border: none;
+      background: var(--primary-color);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .results {
+      max-width: 700px;
+      margin: 16px auto;
+      padding: 0 24px 24px;
+    }
+
+    .result-item {
+      margin-bottom: 18px;
+    }
+
+    .result-title {
+      font-size: 18px;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    .result-title:hover {
+      text-decoration: underline;
+    }
+
+    .result-url {
+      font-size: 14px;
+      color: #006621;
+      margin-top: 2px;
+    }
+
+    .result-snippet {
+      font-size: 14px;
+      color: var(--text-color);
+      margin-top: 4px;
+    }
+
+    .startpage {
+      text-align: center;
+      margin-top: 120px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding: 16px 24px;
+      font-size: 12px;
+      color: var(--muted-color);
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="logo">AskSearch</div>
+  </div>
+
+  <div id="mainContent"></div>
+
+  <footer class="footer">
+    AskSearch — motore di ricerca demo con mini-db JavaScript
+  </footer>
+
+  <script src="mini-db.js"></script>
+  <script>
+
+    // Genera client dinamico
+    function detectClient() {
+  const ua = navigator.userAgent;
+  const uaLow = ua.toLowerCase();
+
+  const isMobile = /android|iphone|ipad|ipod/i.test(ua);
+  const isAndroid = /android/i.test(ua);
+  const isIOS = /iphone|ipad|ipod/i.test(ua);
+  const isWindows = /windows/i.test(ua);
+  const isMac = /macintosh|mac os/i.test(ua);
+
+  // EDGE
+  if (/edg/i.test(ua)) {
+    if (isWindows) return "edge-pc";
+    if (isAndroid) return "edge-android";
+    if (isIOS) return "edge-ios";
+    return "edge-browser";
+  }
+
+  // CHROME
+  if (/chrome/i.test(ua) && !/edg/i.test(ua)) {
+    if (isWindows) return "chrome-pc";
+    if (isAndroid) return "chrome-android";
+    if (isIOS) return "chrome-ios";
+    return "chrome-browser";
+  }
+
+  // SAFARI (ma NON Chrome iOS)
+  if (/safari/i.test(ua) && !/chrome/i.test(ua)) {
+    if (isIOS) return "safari-ios";
+    if (isMac) return "safari-mac";
+    return "safari-browser";
+  }
+
+  // FIREFOX
+  if (/firefox/i.test(ua)) {
+    if (isWindows) return "firefox-pc";
+    if (isAndroid) return "firefox-android";
+    return "firefox-browser";
+  }
+
+  return "browser-dispositivo";
+}
+
+
+    // Genera qoc dinamico
+    function generateQOC() {
+      return "srch_" + Date.now();
+    }
+
+    function getParams() {
+      const params = new URLSearchParams(window.location.search);
+
+      let q = params.get("q");
+      let client = params.get("client");
+      let qoc = params.get("qoc");
+
+      let changed = false;
+
+      if (!client) {
+        client = detectClient();
+        params.set("client", client);
+        changed = true;
+      }
+
+      if (!qoc) {
+        qoc = generateQOC();
+        params.set("qoc", qoc);
+        changed = true;
+      }
+
+      if (changed) {
+        const newUrl = window.location.pathname + "?" + params.toString();
+        window.history.replaceState({}, "", newUrl);
+      }
+
+      return { q, client, qoc };
+    }
+
+    function renderStartPage() {
+      const main = document.getElementById("mainContent");
+      main.innerHTML = `
+        <div class="startpage">
+          <div class="logo" style="font-size:48px;">AskSearch</div>
+          <form class="search-box" id="searchForm">
+            <input type="text" id="searchInput" placeholder="Cerca con AskSearch...">
+            <button type="submit">Cerca</button>
+          </form>
+        </div>
+      `;
+      attachFormHandler();
+    }
+
+    function searchMiniDb(query) {
+      const qLower = query.toLowerCase();
+      return miniDb.filter(item =>
+        item.title.toLowerCase().includes(qLower) ||
+        item.snippet.toLowerCase().includes(qLower)
+      );
+    }
+
+    function renderResults(query) {
+      const results = searchMiniDb(query);
+      const main = document.getElementById("mainContent");
+
+      main.innerHTML = `
+        <form class="search-box" id="searchForm">
+          <input type="text" id="searchInput" value="${query}">
+          <button type="submit">Cerca</button>
+        </form>
+        <div class="results">
+          ${results.length === 0 ? `<div>Nessun risultato trovato.</div>` : ""}
+        </div>
+      `;
+
+      const container = main.querySelector(".results");
+
+      results.forEach(item => {
+        container.innerHTML += `
+          <div class="result-item">
+            <a class="result-title" href="${item.url}">${item.title}</a>
+            <div class="result-url">${item.url}</div>
+            <div class="result-snippet">${item.snippet}</div>
+          </div>
+        `;
+      });
+
+      attachFormHandler();
+    }
+
+    function attachFormHandler() {
+      const form = document.getElementById("searchForm");
+      const input = document.getElementById("searchInput");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const newQ = input.value.trim();
+        const params = new URLSearchParams(window.location.search);
+
+        params.set("q", newQ);
+
+        if (!params.get("client")) params.set("client", detectClient());
+        if (!params.get("qoc")) params.set("qoc", generateQOC());
+
+        window.location.href = window.location.pathname + "?" + params.toString();
+      });
+    }
+
+    function init() {
+      const { q } = getParams();
+
+      if (!q) {
+        renderStartPage();
+      } else {
+        renderResults(q);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>
