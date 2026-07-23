@@ -1,114 +1,185 @@
 # Contributing to AskSearch
 
-Grazie per il tuo interesse nel contribuire ad AskSearch!  
-Questo progetto è un motore di ricerca artigianale completamente offline, basato su un crawler Python e un mini‑database JavaScript.  
-Ogni contributo è benvenuto: bugfix, miglioramenti, nuove funzionalità, ottimizzazioni del crawler, UI, ranking, ecc.
+Grazie per il tuo interesse nel contribuire ad **AskSearch**! 🎉
+
+AskSearch è un motore di ricerca artigianale completamente **offline**, composto da un crawler sviluppato in **Python** e da un motore di ricerca interamente eseguito nel browser.
+
+Sono benvenuti contributi di ogni tipo: correzioni di bug, miglioramenti delle prestazioni, nuove funzionalità, ottimizzazioni del crawler, miglioramenti dell'interfaccia e della documentazione.
 
 ---
 
-## 🧩 Come contribuire
+# Come contribuire
 
-### 1. Fai un fork del repository
-Crea una copia del progetto nel tuo account GitHub.
+## 1. Fai un fork del repository
 
-### 2. Crea un branch per la tua modifica
-Usa un nome chiaro, ad esempio:
+Crea una copia del repository nel tuo account GitHub.
+
+## 2. Crea un nuovo branch
+
+Utilizza un nome descrittivo per la modifica che stai sviluppando.
+
+Esempi:
+
+```text
 feature/ranking
+feature/search-filters
 fix/crawler-timeout
+fix/results-order
 improvement/ui-layout
+docs/update-readme
+```
 
-Codice
+## 3. Sviluppa la tua modifica
 
-### 3. Applica le modifiche
-Puoi contribuire a:
+Puoi contribuire a qualsiasi parte del progetto, ad esempio:
 
-- startpage (index.html)
-- pagina dei risultati (browser/qoc.html)
-- motore di ricerca JS
-- crawler Python
-- mini-db.js
-- documentazione
+* `index.html` (pagina iniziale)
+* `browser/qoc.html` (pagina dei risultati)
+* motore di ricerca JavaScript
+* crawler Python
+* generazione di `mini-db.js`
+* documentazione
+* ottimizzazioni e refactoring
 
 ---
 
-## 🕷️ Modifiche al crawler
+# Modifiche al crawler
 
-Se modifichi:
+Se la tua Pull Request modifica il file:
+
+```text
 crawler/domains_settings.py
+```
 
-Codice
+GitHub Actions eseguirà automaticamente il processo di aggiornamento del database:
 
-GitHub Actions eseguirà automaticamente:
+1. installazione delle dipendenze;
+2. esecuzione del crawler;
+3. generazione del nuovo `mini-db.js`;
+4. copia del file in `browser/mini-db.js`;
+5. commit automatico con il messaggio:
 
-- installazione dipendenze
-- esecuzione crawler
-- generazione mini-db.js
-- copia in browser/mini-db.js
-- commit automatico con messaggio:
+```text
 Crawl Database
+```
 
-Codice
-
-Non devi fare nulla manualmente.
+Non è necessario eseguire manualmente questi passaggi.
 
 ---
 
-## 🔍 Come testare il crawler localmente
+# Testare il crawler localmente
 
-1. Installa Python 3
-2. Installa le dipendenze:
+Installa le dipendenze:
+
+```bash
 pip install requests beautifulsoup4
+```
 
-Codice
-3. Avvia il crawler:
+Spostati nella cartella del crawler:
+
+```bash
 cd crawler
+```
+
+Avvialo:
+
+```bash
 python crawl.py
+```
 
-Codice
-4. Copia il file generato:
-mini-db.js → browser/mini-db.js
+Al termine copia il file generato:
 
-Codice
+```text
+mini-db.js
+```
+
+nella cartella:
+
+```text
+browser/
+```
+
+sostituendo quello esistente.
 
 ---
 
-## 🌐 Come testare AskSearch
+# Testare AskSearch
 
-1. Apri `index.html` nel browser
-2. Digita una ricerca
-3. Verrai reindirizzato a:
+1. Apri `index.html` nel browser.
+2. Inserisci una ricerca.
+3. Verrai reindirizzato automaticamente a:
+
+```text
 browser/qoc.html?q=la_tua_ricerca
+```
 
-Codice
-4. Verifica che i risultati siano corretti
-
----
-
-## 📥 Pull Request
-
-Quando sei pronto:
-
-1. Assicurati che il codice sia pulito e commentato
-2. Assicurati che il crawler funzioni
-3. Assicurati che AskSearch si avvii correttamente
-4. Apri una Pull Request con una descrizione chiara:
-   - cosa hai cambiato
-   - perché
-   - come testarlo
+4. Verifica che i risultati mostrati siano corretti e coerenti con il database generato.
 
 ---
 
-## 📄 Linee guida di stile
+# Pull Request
 
-- HTML/CSS semplice e leggibile
-- JavaScript senza dipendenze esterne
-- Python chiaro, senza librerie non necessarie
-- Commenti brevi e utili
-- Nomi di variabili descrittivi
+Prima di aprire una Pull Request assicurati che:
+
+* il codice sia leggibile e ben organizzato;
+* il crawler funzioni correttamente;
+* AskSearch si avvii senza errori;
+* eventuali modifiche siano state testate.
+
+Nella descrizione della Pull Request indica:
+
+* cosa hai modificato;
+* perché hai apportato la modifica;
+* come è possibile testarla.
 
 ---
 
-## 🤝 Grazie!
+# Linee guida
 
-Ogni contributo aiuta AskSearch a crescere.  
-Se hai idee, suggerimenti o nuove funzionalità, apri pure una Issue.
+### HTML e CSS
+
+* Mantieni il codice semplice e leggibile.
+* Evita codice duplicato quando possibile.
+
+### JavaScript
+
+* Non utilizzare librerie esterne, salvo casi eccezionali.
+* Scrivi codice chiaro e facilmente mantenibile.
+
+### Python
+
+* Mantieni il crawler semplice e portabile.
+* Evita dipendenze non necessarie.
+* Prediligi nomi di variabili descrittivi.
+
+### Documentazione
+
+* Aggiorna il README quando aggiungi nuove funzionalità.
+* Mantieni esempi e istruzioni sempre aggiornati.
+
+---
+
+# Segnalazione di bug
+
+Se trovi un problema:
+
+1. verifica che non sia già stato segnalato;
+2. apri una nuova Issue;
+3. descrivi il problema nel modo più dettagliato possibile;
+4. includi, se possibile, screenshot, log o passaggi per riprodurlo.
+
+---
+
+# Idee e nuove funzionalità
+
+Hai un'idea per migliorare AskSearch?
+
+Apri una **Issue** e descrivi la proposta. Ogni suggerimento è ben accetto e può contribuire a rendere il progetto migliore.
+
+---
+
+# Grazie ❤️
+
+Ogni contributo, piccolo o grande, aiuta AskSearch a crescere.
+
+Grazie per dedicare il tuo tempo al progetto!
