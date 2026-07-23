@@ -36,3 +36,22 @@ body:
       placeholder: Potremmo aggiungere una funzione JS che scarica /favicon.ico per ogni dominio...
 
   - type: textarea
+    id: impact
+    attributes:
+      label: Impatto sul progetto
+      description: Indica quali parti del progetto sarebbero coinvolte.
+      placeholder: browser/qoc.html, mini-db.js, motore di ricerca JS...
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative considerate
+      description: Hai valutato altre soluzioni?
+      placeholder: Potremmo anche usare un servizio esterno, ma AskSearch è offline...
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Mockup / esempi (opzionale)
+      description: Aggiungi screenshot, mockup o esempi se disponibili.
+      placeholder: Inserisci qui immagini o link utili
