@@ -1,0 +1,66 @@
+name: Bug Report
+description: Segnala un problema o un comportamento inatteso in AskSearch
+title: "[BUG] Descrizione breve del problema"
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per aver segnalato un bug in AskSearch. Compila le sezioni seguenti per aiutarci a riprodurre e risolvere il problema.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione del bug
+      description: Spiega chiaramente cosa non funziona e cosa ti aspettavi.
+      placeholder: Il motore non mostra risultati per la query "python"...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Come riprodurre il bug
+      description: Elenca i passaggi necessari per riprodurre il problema.
+      placeholder: |
+        1. Apri index.html
+        2. Cerca "python"
+        3. La pagina dei risultati non mostra nulla
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot / Log (opzionale)
+      description: Aggiungi screenshot, errori della console o log del crawler.
+      placeholder: Inserisci qui eventuali log o immagini
+
+  - type: input
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Browser, sistema operativo, commit/versione di AskSearch.
+      placeholder: Chrome 125, Windows 11, commit a1b2c3
+
+  - type: textarea
+    id: crawler
+    attributes:
+      label: Riguarda il crawler?
+      description: Se il bug riguarda il crawler, descrivi il dominio e il comportamento inatteso.
+      placeholder: Il dominio docs.python.org genera snippet vuoti...
+
+  - type: textarea
+    id: files
+    attributes:
+      label: File coinvolti
+      description: Indica quali file potrebbero essere coinvolti.
+      placeholder: browser/qoc.html, crawler/crawl.py, mini-db.js...
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Possibile soluzione (opzionale)
+      description: Se hai un’idea su come risolvere il problema, descrivila qui.
+      placeholder: Forse il parser non gestisce correttamente UTF-8...
