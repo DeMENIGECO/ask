@@ -1,674 +1,674 @@
 const miniDb = [
   {
-    "id": "doc_26106829",
-    "title": "MathML | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+    "id": "doc_13327976",
+    "title": "MDN Curriculum",
+    "url": "https://developer.mozilla.org/en-US/curriculum/",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_90254386",
-    "title": "Dynamic scripting with JavaScript - Learn web development | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting",
+    "id": "doc_39962074",
+    "title": "Core learning modules - Learn web development | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_37830269",
-    "title": "Browser extensions - Mozilla | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions",
+    "id": "doc_69546981",
+    "title": "Using responsive images in HTML - HTML | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_16622172",
+    "id": "doc_46666138",
+    "title": "Box-shadow generator - CSS | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator",
+    "snippet": "HTML: Markup language"
+  },
+  {
+    "id": "doc_88714169",
+    "title": "MDN Plus",
+    "url": "https://developer.mozilla.org/en-US/plus",
+    "snippet": "HTML: Markup language"
+  },
+  {
+    "id": "doc_46567341",
+    "title": "Advertise with us | MDN",
+    "url": "https://developer.mozilla.org/en-US/advertising",
+    "snippet": "HTML: Markup language"
+  },
+  {
+    "id": "doc_64122066",
+    "title": "Glossary of web terms | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary",
+    "snippet": "HTML: Markup language"
+  },
+  {
+    "id": "doc_43519008",
+    "title": "Applying color to HTML elements using CSS - CSS | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+    "snippet": "HTML: Markup language"
+  },
+  {
+    "id": "doc_19647050",
+    "title": "Security | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+    "snippet": "HTML: Markup language"
+  },
+  {
+    "id": "doc_28237183",
     "title": "MDN Web Docs",
     "url": "https://developer.mozilla.org/fr/",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_37042462",
-    "title": "Web APIs | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/API",
+    "id": "doc_81360052",
+    "title": "About MDN",
+    "url": "https://developer.mozilla.org/en-US/about",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_73157654",
-    "title": "Expressions and operators - JavaScript | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators",
+    "id": "doc_44485883",
+    "title": "Service Worker API - Web APIs | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_42963408",
-    "title": "HTML guides - HTML | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+    "id": "doc_62241550",
+    "title": "WebDriver | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/WebDriver",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_64918349",
-    "title": "Border-image generator - CSS | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Border-image_generator",
+    "id": "doc_38989608",
+    "title": "Loops and iteration - JavaScript | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_48615242",
-    "title": "HTML elements reference - HTML | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "id": "doc_65104939",
+    "title": "Using the Fetch API - Web APIs | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_42626930",
-    "title": "MDN Web Docs Community",
-    "url": "https://developer.mozilla.org/discord",
-    "snippet": "Nessuna descrizione disponibile."
+    "id": "doc_92844876",
+    "title": "Navigation API - Web APIs | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API",
+    "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_76186407",
+    "id": "doc_72096455",
+    "title": "Web developer guides - MDN Web Docs | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/MDN/Guides",
+    "snippet": "HTML: Markup language"
+  },
+  {
+    "id": "doc_43634056",
     "title": "MDN Web Docs",
-    "url": "https://developer.mozilla.org/ru/",
+    "url": "https://developer.mozilla.org/en-US/",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_51016807",
-    "title": "Control flow and error handling - JavaScript | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+    "id": "doc_29750050",
+    "title": "CSS layout - Learn web development | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_90837315",
-    "title": "HTML attribute reference - HTML | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
-    "snippet": "HTML: Markup language"
-  },
-  {
-    "id": "doc_56589211",
-    "title": "Image formats: Codecs and compression tools",
-    "url": "https://developer.mozilla.org/en-US/blog/image-formats-codecs-compression-tools/",
-    "snippet": "HTML: Markup language"
-  },
-  {
-    "id": "doc_88235165",
-    "title": "Push API - Web APIs | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API",
-    "snippet": "HTML: Markup language"
-  },
-  {
-    "id": "doc_84671930",
-    "title": "Shape generator - CSS | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Shapes/Shape_generator",
-    "snippet": "HTML: Markup language"
-  },
-  {
-    "id": "doc_24161168",
-    "title": "CSS at-rules - CSS | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
-    "snippet": "HTML: Markup language"
-  },
-  {
-    "id": "doc_20497540",
-    "title": "MDN Blog",
-    "url": "https://developer.mozilla.org/en-US/blog/",
-    "snippet": "HTML: Markup language"
-  },
-  {
-    "id": "doc_26144775",
-    "title": "Using classes - JavaScript | MDN",
-    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_classes",
-    "snippet": "HTML: Markup language"
-  },
-  {
-    "id": "doc_50885332",
+    "id": "doc_24387698",
     "title": "MDN Web Docs",
     "url": "https://developer.mozilla.org/es/",
     "snippet": "HTML: Markup language"
   },
   {
-    "id": "doc_64830417",
-    "title": "Python Software Foundation",
-    "url": "https://www.python.org/psf/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_49410673",
-    "title": "Diversity | Python.org",
-    "url": "https://www.python.org/community/diversity/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_77494609",
-    "title": "Mailing lists | Python.org",
-    "url": "https://www.python.org/community/lists/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_28297973",
-    "title": "Our Events | Python.org",
-    "url": "https://www.python.org/events/python-user-group/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_64930186",
-    "title": "Alternative Python implementations | Python.org",
-    "url": "https://www.python.org/download/alternatives",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_19006260",
-    "title": "Python Software Foundation Code of Conduct - Python Software Foundation Policies",
-    "url": "https://www.python.org/psf/conduct/",
-    "snippet": "The Python community is made up of members from around the globe with a diverse set of skills, personalities, and experiences. It is through these differences that our community experiences great succ..."
-  },
-  {
-    "id": "doc_84047533",
-    "title": "Support the PSF with a Donation or by becoming a Supporting Member! | Python Software Foundation",
-    "url": "https://www.python.org/psf/donations/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_61174296",
-    "title": "Government | Our Success Stories | Python.org",
-    "url": "https://www.python.org/success-stories/category/government/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_27479294",
-    "title": "The Python Logo | Python Software Foundation",
-    "url": "https://www.python.org/community/logos/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_80082169",
-    "title": "Our Events | Python.org",
-    "url": "https://www.python.org/events/python-events/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_84280415",
-    "title": "About Python\u2122 | Python.org",
-    "url": "https://www.python.org/about/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_29648850",
-    "title": "Our Documentation | Python.org",
-    "url": "https://www.python.org/doc/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_72854391",
-    "title": "Python Security | Python.org",
-    "url": "https://www.python.org/dev/security/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_58565633",
-    "title": "Python Releases for macOS | Python.org",
-    "url": "https://www.python.org/downloads/macos/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_49563936",
-    "title": "Download Python for other platforms | Python.org",
-    "url": "https://www.python.org/download/other/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_34521260",
-    "title": "Python Calendars | Python.org",
-    "url": "https://www.python.org/events/calendars/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_72692072",
-    "title": "\u00f0\u009f\u0091\u008b Hey Community Members! | Python Software Foundation",
-    "url": "https://www.python.org/psf/get-involved/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_43726795",
-    "title": "Python Releases for iOS | Python.org",
-    "url": "https://www.python.org/downloads/ios/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_65119716",
-    "title": "2024 PSF Annual Impact Report | Python.org",
-    "url": "https://www.python.org/psf/annual-report/2024/",
-    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
-  },
-  {
-    "id": "doc_28140732",
+    "id": "doc_38398907",
     "title": "Applications for Python | Python.org",
     "url": "https://www.python.org/about/apps/",
     "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_60116923",
-    "title": "The Python Language Reference \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/reference/index.html",
-    "snippet": "8. Editors and IDEs"
+    "id": "doc_65963916",
+    "title": "Welcome to Python.org",
+    "url": "https://www.python.org#",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_18395699",
-    "title": "Extending and Embedding the Python Interpreter \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/extending/index.html",
-    "snippet": "Security Considerations"
+    "id": "doc_84887151",
+    "title": "Python Releases for Android | Python.org",
+    "url": "https://www.python.org/downloads/android/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_22032318",
-    "title": "The Python Standard Library \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/library/index.html",
-    "snippet": "10. Full Grammar specification"
+    "id": "doc_43341500",
+    "title": "Internet Relay Chat | Python.org",
+    "url": "https://www.python.org/community/irc/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_64883827",
-    "title": "3.13.14 Documentation",
-    "url": "https://docs.python.org/3.13/",
-    "snippet": "Download these documents"
+    "id": "doc_60309422",
+    "title": "Python Release Python 3.14.6 | Python.org",
+    "url": "https://www.python.org/downloads/release/python-3146/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_63111355",
-    "title": "Python Documentation contents \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/contents.html",
-    "snippet": "What\u00e2\u0080\u0099s New in Python"
+    "id": "doc_50638067",
+    "title": "The Python Logo | Python Software Foundation",
+    "url": "https://www.python.org/community/logos/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_72196698",
-    "title": "Overview \u2014 Python 3.4.10 documentation",
-    "url": "https://docs.python.org/3.4/",
-    "snippet": "Welcome! This is the documentation for Python 3.4.10, last updated Jun 16, 2019."
+    "id": "doc_21083987",
+    "title": "Our Events | Python.org",
+    "url": "https://www.python.org/events/python-events/past/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_80344743",
-    "title": "Glossary \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/glossary.html",
-    "snippet": "Deprecations"
+    "id": "doc_66001924",
+    "title": "Python Nordeste 2026 (PyNE 2026) | Python.org",
+    "url": "https://www.python.org/events/python-events/2197/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_47001647",
-    "title": "3.6.15 Documentation",
-    "url": "https://docs.python.org/3.6/",
-    "snippet": "Welcome! This is the documentation for Python 3.6.15."
+    "id": "doc_18807536",
+    "title": "Support the PSF with a Donation or by becoming a Supporting Member! | Python Software Foundation",
+    "url": "https://www.python.org/psf/donations/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_17092917",
-    "title": "About this documentation \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/about.html",
-    "snippet": "Glossary"
+    "id": "doc_38462022",
+    "title": "Python Releases for Windows | Python.org",
+    "url": "https://www.python.org/downloads/windows/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
   },
   {
-    "id": "doc_90803342",
+    "id": "doc_65591769",
+    "title": "Python Job Board | Python.org",
+    "url": "https://www.python.org/jobs/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_45598699",
+    "title": "PyOhio 2026 | Python.org",
+    "url": "https://www.python.org/events/python-events/2137/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_41534465",
+    "title": "PyData PyCon Armenia 2026 | Python.org",
+    "url": "https://www.python.org/events/python-events/2179/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_15514899",
+    "title": "Our Events | Python.org",
+    "url": "https://www.python.org/events/python-events/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_86796234",
+    "title": "Our Events | Python.org",
+    "url": "https://www.python.org/events/python-user-group/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_74036423",
+    "title": "Python For Beginners | Python.org",
+    "url": "https://www.python.org/about/gettingstarted/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_26175488",
+    "title": "Audio/Video Instructional Materials for Python | Python.org",
+    "url": "https://www.python.org/doc/av",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_38780791",
+    "title": "Arts | Our Success Stories | Python.org",
+    "url": "https://www.python.org/success-stories/category/arts/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_46022383",
+    "title": "Python Community Awards | Python Software Foundation",
+    "url": "https://www.python.org/community/awards",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_59870491",
+    "title": "Mailing lists | Python.org",
+    "url": "https://www.python.org/community/lists/",
+    "snippet": "Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets."
+  },
+  {
+    "id": "doc_25462431",
+    "title": "Deprecations \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/deprecations/index.html",
+    "snippet": "\u00e2\u0080\u009cWhy is Python Installed on my Computer?\u00e2\u0080\u009d FAQ"
+  },
+  {
+    "id": "doc_42130320",
     "title": "Overview \u2014 Python v2.6.9 documentation",
     "url": "https://docs.python.org/2.6/",
     "snippet": "Welcome! This is the documentation for Python 2.6.9, last updated Oct 29, 2013."
   },
   {
-    "id": "doc_86046301",
-    "title": "404 Not Found",
-    "url": "https://docs.python.org/installing/index.html",
-    "snippet": "Nessuna descrizione disponibile."
+    "id": "doc_14891057",
+    "title": "The Python Standard Library \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/library/index.html",
+    "snippet": "10. Full Grammar specification"
   },
   {
-    "id": "doc_64092095",
+    "id": "doc_71376643",
     "title": "3.14.6 Documentation",
     "url": "https://docs.python.org",
     "snippet": "Download these documents"
   },
   {
-    "id": "doc_22751291",
-    "title": "What\u00e2\u0080\u0099s New in Python \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/whatsnew/index.html",
-    "snippet": "Python Documentation contents"
-  },
-  {
-    "id": "doc_26036632",
-    "title": "3.9.25 Documentation",
-    "url": "https://docs.python.org/3.9/",
+    "id": "doc_18257233",
+    "title": "3.10.20 Documentation",
+    "url": "https://docs.python.org/3.10/",
     "snippet": "Download these documents"
   },
   {
-    "id": "doc_80831889",
-    "title": "Python 2.7.18 documentation",
-    "url": "https://docs.python.org/2.7/",
-    "snippet": "Welcome! This is the documentation for Python 2.7.18."
-  },
-  {
-    "id": "doc_76391021",
-    "title": "Python Setup and Usage \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/using/index.html",
-    "snippet": "16. Appendix"
-  },
-  {
-    "id": "doc_41875648",
-    "title": "Python/C API reference manual \u2014 Python 3.14.6 documentation",
-    "url": "https://docs.python.org/c-api/index.html",
-    "snippet": "1. Embedding Python in Another Application"
-  },
-  {
-    "id": "doc_36123063",
-    "title": "Overview \u2014 Python v3.1.5 documentation",
-    "url": "https://docs.python.org/3.1/",
-    "snippet": "Welcome! This is the documentation for Python 3.1.5, last updated Apr 09, 2012."
-  },
-  {
-    "id": "doc_24194360",
+    "id": "doc_57111008",
     "title": "What\u00e2\u0080\u0099s new in Python 3.14 \u2014 Python 3.14.6 documentation",
     "url": "https://docs.python.org/whatsnew/3.14.html",
     "snippet": "What\u00e2\u0080\u0099s New in Python"
   },
   {
-    "id": "doc_17732360",
+    "id": "doc_40858112",
+    "title": "The Python Tutorial \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/tutorial/index.html",
+    "snippet": "Changelog"
+  },
+  {
+    "id": "doc_43019457",
+    "title": "Python Documentation contents \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/contents.html",
+    "snippet": "What\u00e2\u0080\u0099s New in Python"
+  },
+  {
+    "id": "doc_78884541",
+    "title": "Overview \u2014 Python v3.0.1 documentation",
+    "url": "https://docs.python.org/3.0/",
+    "snippet": "Welcome! This is the documentation for Python 3.0.1, last updated Feb 14, 2009."
+  },
+  {
+    "id": "doc_91746757",
+    "title": "Dealing with Bugs \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/bugs.html",
+    "snippet": "About this documentation"
+  },
+  {
+    "id": "doc_52458406",
+    "title": "Python Frequently Asked Questions \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/faq/index.html",
+    "snippet": "Remote debugging attachment protocol"
+  },
+  {
+    "id": "doc_22352369",
+    "title": "Python 2.7.18 documentation",
+    "url": "https://docs.python.org/2.7/",
+    "snippet": "Welcome! This is the documentation for Python 2.7.18."
+  },
+  {
+    "id": "doc_25309529",
+    "title": "The Python Language Reference \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/reference/index.html",
+    "snippet": "8. Editors and IDEs"
+  },
+  {
+    "id": "doc_85432189",
     "title": "Download \u2014 Python 3.14.6 documentation",
     "url": "https://docs.python.org/download.html",
     "snippet": "Last updated on: Jul 23, 2026 (08:48 UTC)."
   },
   {
-    "id": "doc_89164883",
-    "title": "Azzurra | Progetti",
-    "url": "https://azzurradev.github.io/progetti.html",
-    "snippet": "Progetti"
+    "id": "doc_52050405",
+    "title": "3.11.15 Documentation",
+    "url": "https://docs.python.org/3.11/",
+    "snippet": "Download these documents"
   },
   {
-    "id": "doc_68060724",
-    "title": "Azzurra | Progetto Duck",
-    "url": "https://azzurradev.github.io/duck.html",
-    "snippet": "Progetto"
+    "id": "doc_98028388",
+    "title": "3.9.25 Documentation",
+    "url": "https://docs.python.org/3.9/",
+    "snippet": "Download these documents"
   },
   {
-    "id": "doc_22973072",
+    "id": "doc_78114175",
+    "title": "3.5.10 Documentation",
+    "url": "https://docs.python.org/3.5/",
+    "snippet": "Welcome! This is the documentation for Python 3.5.10."
+  },
+  {
+    "id": "doc_39051871",
+    "title": "Overview \u2014 Python v3.1.5 documentation",
+    "url": "https://docs.python.org/3.1/",
+    "snippet": "Welcome! This is the documentation for Python 3.1.5, last updated Apr 09, 2012."
+  },
+  {
+    "id": "doc_74784710",
+    "title": "Search \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/search.html",
+    "snippet": "Please activate JavaScript to enable the search functionality."
+  },
+  {
+    "id": "doc_21257303",
+    "title": "Glossary \u2014 Python 3.14.6 documentation",
+    "url": "https://docs.python.org/glossary.html",
+    "snippet": "Deprecations"
+  },
+  {
+    "id": "doc_64061520",
     "title": "Azzurra | Home",
     "url": "https://azzurradev.github.io/index.html",
     "snippet": "Azzurra \u2022 progetti \u2022 impatto"
   },
   {
-    "id": "doc_88889520",
-    "title": "Azzurra | Progetto Azzurra",
-    "url": "https://azzurradev.github.io/azzurra.html",
+    "id": "doc_24086285",
+    "title": "Azzurra | Progetto Duck",
+    "url": "https://azzurradev.github.io/duck.html",
     "snippet": "Progetto"
   },
   {
-    "id": "doc_25189660",
+    "id": "doc_34213900",
     "title": "Azzurra | Documentazione",
     "url": "https://azzurradev.github.io/docs/index.html",
     "snippet": "Documentazione"
   },
   {
-    "id": "doc_38775421",
-    "title": "Page not found \u00b7 GitHub Pages",
-    "url": "https://scratchdomeos.github.io/docs/",
-    "snippet": "File not found"
+    "id": "doc_23786575",
+    "title": "Azzurra | Progetti",
+    "url": "https://azzurradev.github.io/progetti.html",
+    "snippet": "Progetti"
   },
   {
-    "id": "doc_27374395",
-    "title": "Download - DomeOS",
+    "id": "doc_65641900",
+    "title": "Azzurra | Progetto Azzurra",
+    "url": "https://azzurradev.github.io/azzurra.html",
+    "snippet": "Progetto"
+  },
+  {
+    "id": "doc_78516302",
+    "title": "Unicorn! \u00b7 GitHub",
     "url": "https://scratchdomeos.github.io/download",
-    "snippet": "DomeOS 1.0 Build 1000"
+    "snippet": ""
   },
   {
-    "id": "doc_91489206",
-    "title": "DomeOS",
-    "url": "https://scratchdomeos.github.io/",
-    "snippet": "Il sistema operativo realizzato in Scratch."
-  },
-  {
-    "id": "doc_47028910",
+    "id": "doc_39403561",
     "title": "DomeOS",
     "url": "https://scratchdomeos.github.io#",
     "snippet": "Il sistema operativo realizzato in Scratch."
   },
   {
-    "id": "doc_52656459",
-    "title": "Snode \u2013 Download",
-    "url": "https://snode.js.org/downloads",
-    "snippet": "Seleziona la versione dal menu personalizzato."
+    "id": "doc_87077546",
+    "title": "DomeOS",
+    "url": "https://scratchdomeos.github.io/",
+    "snippet": "Il sistema operativo realizzato in Scratch."
   },
   {
-    "id": "doc_64145040",
+    "id": "doc_57980987",
+    "title": "Page not found \u00b7 GitHub Pages",
+    "url": "https://scratchdomeos.github.io/docs/",
+    "snippet": "File not found"
+  },
+  {
+    "id": "doc_78281635",
     "title": "Scegli una lingua | snode.js.org",
     "url": "https://snode.js.org/docs/",
     "snippet": "Per favore scegli una lingua."
   },
   {
-    "id": "doc_32084336",
+    "id": "doc_64162278",
+    "title": "Snode \u2013 Download",
+    "url": "https://snode.js.org/downloads",
+    "snippet": "Seleziona la versione dal menu personalizzato."
+  },
+  {
+    "id": "doc_60749864",
     "title": "Windows 12 Demo",
     "url": "https://lttthedev.github.io/desktop.html",
     "snippet": "Updating"
   },
   {
-    "id": "doc_29401200",
-    "title": "Unified AI-Powered Platforms for DevOps Solutions | GitHub \u00b7 GitHub",
-    "url": "https://github.com/solutions/use-case/devops",
+    "id": "doc_63545228",
+    "title": "GitHub Codespaces \u00b7 GitHub",
+    "url": "https://github.com/features/codespaces",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_46038565",
-    "title": "GitHub Copilot \u00b7 Your AI pair programmer \u00b7 GitHub",
-    "url": "https://github.com/features/copilot",
-    "snippet": "We read every piece of feedback, and take your input very seriously."
-  },
-  {
-    "id": "doc_75331279",
-    "title": "GitHub Features \u00b7 GitHub",
-    "url": "https://github.com/features",
-    "snippet": "We read every piece of feedback, and take your input very seriously."
-  },
-  {
-    "id": "doc_87322459",
-    "title": "Trending  repositories on GitHub today \u00b7 GitHub",
-    "url": "https://github.com/trending",
-    "snippet": "We read every piece of feedback, and take your input very seriously."
-  },
-  {
-    "id": "doc_61075512",
-    "title": "GitHub Premium Support \u00b7 GitHub",
-    "url": "https://github.com/enterprise/premium-support",
-    "snippet": "We read every piece of feedback, and take your input very seriously."
-  },
-  {
-    "id": "doc_71827732",
-    "title": "GitHub \u00b7 GitHub",
-    "url": "https://github.com/github",
-    "snippet": "We read every piece of feedback, and take your input very seriously."
-  },
-  {
-    "id": "doc_89282753",
-    "title": "GitHub Articles \u2022 Technical Guides, Developer Insights & Best Practices \u00b7 GitHub",
-    "url": "https://github.com/resources/articles?topic=software-development",
-    "snippet": "We read every piece of feedback, and take your input very seriously."
-  },
-  {
-    "id": "doc_72335776",
-    "title": "Get our developer newsletter \u00b7 GitHub",
-    "url": "https://github.com/newsletter",
-    "snippet": "We read every piece of feedback, and take your input very seriously."
-  },
-  {
-    "id": "doc_46104801",
+    "id": "doc_69353467",
     "title": "Customer stories \u00b7 GitHub",
-    "url": "https://github.com/customer-stories",
+    "url": "https://github.com/customer-stories?type=enterprise",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_27021163",
-    "title": "GitHub Security \u00b7 GitHub",
-    "url": "https://github.com/security",
+    "id": "doc_50098827",
+    "title": "GitHub Articles \u2022 Technical Guides, Developer Insights & Best Practices \u00b7 GitHub",
+    "url": "https://github.com/resources/articles?topic=ai",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_42302467",
-    "title": "GitHub - github/roadmap: GitHub public roadmap \u00b7 GitHub",
-    "url": "https://github.com/github/roadmap",
+    "id": "doc_72676177",
+    "title": "github.com",
+    "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home",
+    "snippet": "Please enable JS and disable any ad blocker"
+  },
+  {
+    "id": "doc_20359321",
+    "title": "Upcoming GitHub events, webinars & developer conferences \u00b7 GitHub",
+    "url": "https://github.com/resources/events",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_24959189",
-    "title": "GitHub Advanced Security \u00b7 Built-in protection for every repository \u00b7 GitHub",
-    "url": "https://github.com/security/advanced-security",
+    "id": "doc_20339414",
+    "title": "Git \u00b7 GitHub",
+    "url": "https://github.com/git-guides",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_28043797",
+    "id": "doc_65585165",
+    "title": "GitHub Use Case Solutions | GitHub \u00b7 GitHub",
+    "url": "https://github.com/solutions/use-case",
+    "snippet": "We read every piece of feedback, and take your input very seriously."
+  },
+  {
+    "id": "doc_40003569",
+    "title": "GitHub Code Quality \u00b7 GitHub",
+    "url": "https://github.com/features/code-quality",
+    "snippet": "We read every piece of feedback, and take your input very seriously."
+  },
+  {
+    "id": "doc_45237260",
     "title": "GitHub Sitemap \u00b7 GitHub",
     "url": "https://github.com/sitemap",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_21701277",
-    "title": "Ebooks & Whitepapers \u00b7 GitHub",
-    "url": "https://github.com/resources/whitepapers",
+    "id": "doc_71904174",
+    "title": "Collections \u00b7 GitHub",
+    "url": "https://github.com/collections",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_79520164",
-    "title": "GitHub Partner Program \u00b7 GitHub",
-    "url": "https://github.com/partners",
+    "id": "doc_82234997",
+    "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub",
+    "url": "https://github.com/",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_42538413",
-    "title": "GitHub Desktop | Simple collaboration from your desktop \u00b7 GitHub",
-    "url": "https://github.com/apps/desktop",
+    "id": "doc_77613121",
+    "title": "Mercedes-Benz \u00b7 GitHub",
+    "url": "https://github.com/customer-stories/mercedes-benz",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_57574243",
-    "title": "GitHub Secret Protection \u00b7 GitHub",
-    "url": "https://github.com/security/advanced-security/secret-protection",
+    "id": "doc_52834825",
+    "title": "GitHub Copilot \u00b7 Your AI pair programmer \u00b7 GitHub",
+    "url": "https://github.com/features/copilot",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_70857624",
-    "title": "GitHub AI \u00b7 AI built into every step of your workflow \u00b7 GitHub",
-    "url": "https://github.com/features/ai",
+    "id": "doc_56099809",
+    "title": "Solutions | Executive Insights \u00b7 GitHub",
+    "url": "https://github.com/solutions/executive-insights",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_57902406",
-    "title": "The ReadME Project \u00b7\u00a0Meet the people behind the projects you love \u00b7 GitHub",
-    "url": "https://github.com/readme",
+    "id": "doc_28452832",
+    "title": "community \u00b7 Discussions \u00b7 GitHub",
+    "url": "https://github.com/orgs/community/discussions",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_14497515",
-    "title": "Mercado Libre \u00b7 GitHub",
-    "url": "https://github.com/customer-stories/mercado-libre",
+    "id": "doc_30159477",
+    "title": "Pricing \u00b7 Plans for every developer \u00b7 GitHub",
+    "url": "https://github.com/pricing",
     "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_89069377",
-    "title": "Enterprise onboarding - GitHub Enterprise Cloud Docs",
-    "url": "https://docs.github.com/en/enterprise-cloud@latest/enterprise-onboarding",
-    "snippet": "Onboard your company to GitHub Enterprise Cloud by following our recommended plan. You will set up teams with the access they need, create a policy framework to ensure compliance, and automate process..."
+    "id": "doc_63340294",
+    "title": "Copilot Code Review \u00b7 GitHub",
+    "url": "https://github.com/features/code-review",
+    "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_67635281",
-    "title": "Security and code quality documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/code-security",
-    "snippet": "Build security and code quality into your GitHub workflow with integrated tooling."
+    "id": "doc_63656538",
+    "title": "Customer stories \u00b7 GitHub",
+    "url": "https://github.com/customer-stories",
+    "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_42745213",
-    "title": "Creating and managing repositories - GitHub Docs",
-    "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories",
-    "snippet": "You can create a repository on GitHub to store and collaborate on your project's files, then manage the repository's name and location."
+    "id": "doc_90271547",
+    "title": "GitHub Features \u00b7 GitHub",
+    "url": "https://github.com/features",
+    "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_62967217",
-    "title": "Pull requests - GitHub Docs",
-    "url": "https://docs.github.com/en/pull-requests/reference/pull-requests",
-    "snippet": "Propose, review, and merge code changes using pull requests to collaborate effectively and maintain code quality."
+    "id": "doc_37173207",
+    "title": "GitHub \u00b7 GitHub",
+    "url": "https://github.com/github",
+    "snippet": "We read every piece of feedback, and take your input very seriously."
   },
   {
-    "id": "doc_86774277",
-    "title": "GitHub Issues documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/issues",
-    "snippet": "Learn how you can use GitHub Issues to plan and track your work."
-  },
-  {
-    "id": "doc_77028124",
-    "title": "GitHub CLI documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/github-cli",
-    "snippet": "GitHub CLI is an open source tool for using GitHub from your computer's command line. When you're working from the command line, you can use the GitHub CLI to save time and avoid switching context."
-  },
-  {
-    "id": "doc_12071433",
-    "title": "GitHub Mobile - GitHub Docs",
-    "url": "https://docs.github.com/en/get-started/using-github/github-mobile",
-    "snippet": "Triage, collaborate, and manage your work on GitHub from your mobile device."
-  },
-  {
-    "id": "doc_58913712",
-    "title": "Find and fix code vulnerabilities - GitHub Docs",
-    "url": "https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities",
-    "snippet": "Identify vulnerabilities in your code by configuring and managing code scanning."
-  },
-  {
-    "id": "doc_53238890",
-    "title": "Customization library - GitHub Docs",
-    "url": "https://docs.github.com/en/copilot/tutorials/customization-library",
-    "snippet": "Discover a curated collection of customizations, including custom instructions, custom agents, and prompt files, to enhance your GitHub Copilot experience."
-  },
-  {
-    "id": "doc_73604055",
-    "title": "Contributing to GitHub Docs documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/contributing",
-    "snippet": "Learn about how the GitHub Docs team creates documentation and how you can contribute."
-  },
-  {
-    "id": "doc_86892911",
-    "title": "GitHub Docs",
-    "url": "https://docs.github.com#main-content",
-    "snippet": "Help for wherever you are on your GitHub journey."
-  },
-  {
-    "id": "doc_50924620",
-    "title": "Connecting to GitHub with SSH - GitHub Docs",
-    "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh",
-    "snippet": "You can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network."
-  },
-  {
-    "id": "doc_25029550",
-    "title": "GitHub Sponsors documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/sponsors",
-    "snippet": "Invest in the open source projects you depend on, support digital infrastructure, and make open source careers possible by sponsoring open source contributors and their projects. Build a GitHub Sponso..."
-  },
-  {
-    "id": "doc_62194432",
-    "title": "Contributing to GitHub Docs documentation - GitHub Docs",
-    "url": "https://docs.github.com/contributing",
-    "snippet": "Learn about how the GitHub Docs team creates documentation and how you can contribute."
-  },
-  {
-    "id": "doc_58501114",
-    "title": "Basic writing and formatting syntax - GitHub Docs",
-    "url": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
-    "snippet": "Create sophisticated formatting for your prose and code on GitHub with simple syntax."
-  },
-  {
-    "id": "doc_50327752",
-    "title": "Authentication documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/authentication",
-    "snippet": "Authenticate securely to GitHub with passwords, tokens, SSH keys, and more\u2014and keep your account protected."
-  },
-  {
-    "id": "doc_45937078",
+    "id": "doc_10096831",
     "title": "Billing and payments documentation - GitHub Docs",
     "url": "https://docs.github.com/en/billing",
     "snippet": "Learn about the different components of your bill, and how you can view and manage those components."
   },
   {
-    "id": "doc_61734687",
-    "title": "GitHub REST API documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/rest",
-    "snippet": "Create integrations, retrieve data, and automate your workflows with the GitHub REST API."
+    "id": "doc_72981551",
+    "title": "Creating and managing repositories - GitHub Docs",
+    "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories",
+    "snippet": "You can create a repository on GitHub to store and collaborate on your project's files, then manage the repository's name and location."
   },
   {
-    "id": "doc_43425986",
-    "title": "Subscriptions and notifications documentation - GitHub Docs",
-    "url": "https://docs.github.com/en/subscriptions-and-notifications",
-    "snippet": "You can specify how to receive notifications, the repositories you are interested in, and the types of activity you want to hear about."
+    "id": "doc_73705062",
+    "title": "Migrations documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/migrations",
+    "snippet": "If you're moving to GitHub from another code hosting platform or moving between GitHub products, learn how to use our migration tooling to bring your work with you."
   },
   {
-    "id": "doc_77594147",
+    "id": "doc_64811825",
+    "title": "GitHub Docs",
+    "url": "https://docs.github.com#main-content",
+    "snippet": "Help for wherever you are on your GitHub journey."
+  },
+  {
+    "id": "doc_66117031",
+    "title": "GitHub Issues documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/issues",
+    "snippet": "Learn how you can use GitHub Issues to plan and track your work."
+  },
+  {
+    "id": "doc_36688616",
+    "title": "How-tos for securing secrets - GitHub Docs",
+    "url": "https://docs.github.com/en/code-security/how-tos/secure-your-secrets",
+    "snippet": "Learn how to use GitHub's security and code quality features."
+  },
+  {
+    "id": "doc_84845802",
+    "title": "GitHub GraphQL API documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/graphql",
+    "snippet": "To create integrations, retrieve data, and automate your workflows, use the GitHub GraphQL API. The GitHub GraphQL API offers more precise and flexible queries than the GitHub REST API."
+  },
+  {
+    "id": "doc_15746056",
+    "title": "GitHub Apps documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/apps",
+    "snippet": "Go deeper with GitHub by integrating with our APIs and webhooks, customizing your GitHub workflow, and building and sharing apps with the community."
+  },
+  {
+    "id": "doc_32911662",
     "title": "Tutorials for GitHub Copilot - GitHub Docs",
     "url": "https://docs.github.com/en/copilot/tutorials",
     "snippet": "Build skills and knowledge about GitHub Copilot through examples and hands-on activities."
+  },
+  {
+    "id": "doc_80814061",
+    "title": "Secure at scale - GitHub Docs",
+    "url": "https://docs.github.com/en/code-security/how-tos/secure-at-scale",
+    "snippet": "Secure your codebase at scale by configuring security at the enterprise and organization levels and troubleshooting security configurations as needed."
+  },
+  {
+    "id": "doc_26430744",
+    "title": "GitHub Sponsors documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/sponsors",
+    "snippet": "Invest in the open source projects you depend on, support digital infrastructure, and make open source careers possible by sponsoring open source contributors and their projects. Build a GitHub Sponso..."
+  },
+  {
+    "id": "doc_85343105",
+    "title": "GitHub Docs",
+    "url": "https://docs.github.com/en",
+    "snippet": "Help for wherever you are on your GitHub journey."
+  },
+  {
+    "id": "doc_15809482",
+    "title": "Getting code suggestions in your IDE with GitHub Copilot - GitHub Docs",
+    "url": "https://docs.github.com/en/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions",
+    "snippet": "Use GitHub Copilot to get code suggestions in your editor."
+  },
+  {
+    "id": "doc_47392695",
+    "title": "Customization library - GitHub Docs",
+    "url": "https://docs.github.com/en/copilot/tutorials/customization-library",
+    "snippet": "Discover a curated collection of customizations, including custom instructions, custom agents, and prompt files, to enhance your GitHub Copilot experience."
+  },
+  {
+    "id": "doc_35041251",
+    "title": "GitHub Support documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/support",
+    "snippet": "GitHub offers different levels of support with each product, including community forum support and limited email support for everyone, full email support for all paid products, and 24/7 email and call..."
+  },
+  {
+    "id": "doc_27524286",
+    "title": "Planning and tracking with Projects - GitHub Docs",
+    "url": "https://docs.github.com/en/issues/planning-and-tracking-with-projects",
+    "snippet": "Build adaptable projects to track your work on GitHub."
+  },
+  {
+    "id": "doc_46044532",
+    "title": "Maintain quality code - GitHub Docs",
+    "url": "https://docs.github.com/en/code-security/how-tos/maintain-quality-code",
+    "snippet": "Learn how to use GitHub's code security and code quality features to maintain high-quality code in your repositories."
+  },
+  {
+    "id": "doc_90366444",
+    "title": "Authentication documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/authentication",
+    "snippet": "Authenticate securely to GitHub with passwords, tokens, SSH keys, and more\u2014and keep your account protected."
+  },
+  {
+    "id": "doc_51060876",
+    "title": "GitHub CLI documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/github-cli",
+    "snippet": "GitHub CLI is an open source tool for using GitHub from your computer's command line. When you're working from the command line, you can use the GitHub CLI to save time and avoid switching context."
+  },
+  {
+    "id": "doc_42148307",
+    "title": "Search on GitHub documentation - GitHub Docs",
+    "url": "https://docs.github.com/en/search-github",
+    "snippet": "Learn how to use the search functions available on GitHub to find different types of information, like projects, people, and code."
   }
 ];
