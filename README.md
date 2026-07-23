@@ -1,5 +1,8 @@
 # AskSearch
 
+[![AskSearch Crawler](https://github.com/DeMENIGECO/ask/actions/workflows/crawl.yml/badge.svg)](https://github.com/DeMENIGECO/ask/actions/workflows/crawl.yml)
+
+
 **AskSearch** è un motore di ricerca artigianale che funziona completamente **offline**.
 
 Utilizza un crawler sviluppato in **Python** per indicizzare pagine web reali e generare un database JavaScript (`mini-db.js`). Questo database viene poi letto dal motore di ricerca nel browser per mostrare i risultati, senza richiedere alcun server.
