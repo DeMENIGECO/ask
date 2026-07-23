@@ -1,0 +1,38 @@
+name: Feature Request
+description: Proponi una nuova funzionalità o un miglioramento per AskSearch
+title: "[FEATURE] Descrizione breve della funzionalità"
+labels:
+  - enhancement
+  - feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per voler migliorare AskSearch! Compila le sezioni seguenti per descrivere la tua idea nel modo più chiaro possibile.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Descrizione della funzionalità
+      description: Spiega chiaramente la nuova funzionalità o il miglioramento che proponi.
+      placeholder: Aggiungere favicon ai risultati di ricerca...
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Perché è utile?
+      description: Spiega perché questa funzionalità migliorerebbe AskSearch.
+      placeholder: Migliora la leggibilità dei risultati e rende la UI più moderna...
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Possibile implementazione
+      description: Se hai un’idea su come implementarla, descrivila qui.
+      placeholder: Potremmo aggiungere una funzione JS che scarica /favicon.ico per ogni dominio...
+
+  - type: textarea
