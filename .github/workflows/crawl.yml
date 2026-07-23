@@ -1,0 +1,48 @@
+name: AskSearch Crawler
+
+on:
+  push:
+    paths:
+      - "crawler/domains_settings.py"
+
+permissions:
+  contents: write
+
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Run crawler
+        run: |
+          cd crawler
+          python crawl.py
+
+      - name: Copy mini-db.js to browser/
+        run: |
+          cp crawler/mini-db.js browser/mini-db.js
+
+      - name: Commit updated mini-db.js
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add browser/mini-db.js
+          git commit -m "Crawl Database" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
